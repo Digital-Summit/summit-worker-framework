@@ -1,0 +1,14 @@
+{
+  "name": "summit-worker-framework",
+  "version": "1.0.0",
+  "devDependencies": {
+    "before-build-webpack": "^0.2.13",
+    "esbuild": "^0.14.51",
+    "miniflare": "^2.6.0",
+    "path-browserify": "^1.0.1",
+    "toml": "^3.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "wrangler": "2.0.23"
+  }
+}
