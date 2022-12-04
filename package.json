@@ -1,7 +1,7 @@
 {
   "name": "summit-worker-framework",
-  "version": "1.0.0",
-  "devDependencies": {
+  "version": "1.0.1",
+  "dependencies": {
     "before-build-webpack": "^0.2.13",
     "esbuild": "^0.14.51",
     "miniflare": "^2.6.0",
