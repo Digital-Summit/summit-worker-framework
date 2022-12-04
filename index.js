@@ -1,5 +1,4 @@
 const objects = require('@generated/objects.js');
-const remoteLogger = require(__dirname + '/tools/remoteLogger.js');
 
 module.exports = (exp, fetchCallback) => {
   Object.keys(objects).forEach(objectName => {
