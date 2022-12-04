@@ -33,8 +33,8 @@ const packageJsonContent = require(packageJsonPath);
 if (!('scripts' in packageJsonContent)) {
   packageJsonContent['scripts'] = {};
 }
-packageJsonContent['scripts']['dev'] = 'webpack';
-packageJsonContent['scripts']['build'] = 'miniflare --watch --debug';
+packageJsonContent['scripts']['dev'] = 'miniflare --watch --debug';
+packageJsonContent['scripts']['build'] = 'webpack';
 packageJsonContent['scripts']['deploy'] = 'wrangler publish';
 packageJsonContent['main'] = './dist/main.js';
 
