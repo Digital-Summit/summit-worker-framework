@@ -30,6 +30,9 @@ copyRecursiveSync(copyFrom, copyTo);
 
 const packageJsonPath = path.join(PROJECT_ROOT, 'package.json');
 const packageJsonContent = require(packageJsonPath);
+if (!('scripts' in packageJsonContent)) {
+  packageJsonContent['scripts'] = {};
+}
 packageJsonContent['scripts']['dev'] = 'webpack';
 packageJsonContent['scripts']['build'] = 'miniflare --watch --debug';
 packageJsonContent['scripts']['deploy'] = 'wrangler publish';
